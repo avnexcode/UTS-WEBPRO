@@ -8,6 +8,7 @@
 body,
 html {
   overflow-x: hidden;
+  background-color: whitesmoke;
 }
 
 header {
@@ -25,11 +26,11 @@ header .hero-left {
 }
 header .hero-left .hero-title h1 {
   margin-bottom: 10px;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 header .hero-left .hero-title p {
   text-align: justify;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 header .hero-right {
   width: 60%;
@@ -47,13 +48,13 @@ header .hero-right .hero-image:hover img {
 }
 header .hero-right .hero-image img {
   cursor: pointer;
-  border: 3px solid white;
-  margin-left: -100px;
-  width: 150px;
-  height: 150px;
+  margin-left: -125px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
+  border: 3px solid white;
   border-radius: 50%;
-  transition: all 0.5s ease;
+  transition: all 1s ease;
 }
 
 main {
@@ -68,37 +69,42 @@ main nav {
   display: flex;
   justify-content: center;
 }
+main nav h1 {
+  font-size: 2.5rem;
+}
 main .card-list {
-  padding: 10px 20px;
+  margin-bottom: 1rem;
+  padding: 0 20px;
+  padding-bttom: 10px;
   display: flex;
   justify-content: space-around;
 }
 main .card-list .card {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  width: 150px;
-  height: 220px;
+  width: 250px;
+  height: 320px;
   padding: 2px;
 }
 main .card-list .card:nth-child(1) {
-  border: 3px solid #f9743c;
+  border: 5px double #f9743c;
   border-radius: 1rem;
 }
 main .card-list .card:nth-child(1) .card-image {
   background-color: #f9743c;
 }
 main .card-list .card:nth-child(2) {
-  border: 3px solid #733ce0;
+  border: 5px double #733ce0;
   border-radius: 1rem;
 }
 main .card-list .card:nth-child(2) .card-image {
   background-color: #733ce0;
 }
 main .card-list .card:nth-child(3) {
-  border: 3px solid #df1b59;
+  border: 5px double #df1b59;
   border-radius: 1rem;
 }
 main .card-list .card:nth-child(3) .card-image {
@@ -109,13 +115,13 @@ main .card-list .card-image {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 150px;
+  height: 200px;
 }
 main .card-list .card-image img {
   position: absolute;
-  top: -15px;
-  width: 100px;
-  height: 150px;
+  top: -35px;
+  width: 160px;
+  height: 200px;
   object-fit: cover;
 }
 main .card-list .card-detail {
@@ -127,16 +133,18 @@ main .card-list .card-detail {
   width: 60%;
 }
 main .card-list .card-detail h1 {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
 }
-main .card-list .card-detail button {
+main .card-list .card-detail .btn-detail {
   width: 100%;
   background-color: black;
   border: none;
-  border-radius: 0.4rem;
+  border-radius: 0.8rem;
   color: white;
   padding: 5px 10px;
-  font-size: 0.7rem;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=page.css.map */

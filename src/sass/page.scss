@@ -9,6 +9,7 @@
 body,
 html {
     overflow-x: hidden;
+    background-color: whitesmoke;
 }
 
 // Font Variable
@@ -42,13 +43,13 @@ header {
                     bottom: 10px;
                 }
                 font: {
-                    size: 1.5rem;
+                    size: 2.5rem;
                 }
             }
             p {
                 text-align: justify;
                 font: {
-                    size: 0.8rem;
+                    size: 1rem;
                 }
             }
         }
@@ -67,17 +68,16 @@ header {
             }
             img {
                 cursor: pointer;
-                border: 3px solid white;
                 margin: {
-                    left: -100px;
+                    left: -125px;
                 }
-                width: 150px;
-                height: 150px;
+                width: 250px;
+                height: 250px;
                 object-fit: cover;
-                border: {
+                border: 3px solid white {
                     radius: 50%;
                 }
-                transition: all 0.5s ease;
+                transition: all 1s ease;
             }
         }
     }
@@ -95,22 +95,32 @@ main {
         width: 100%;
         display: flex;
         justify-content: center;
+        h1 {
+            font: {
+                size: 2.5rem;
+            }
+        }
     }
     .card-list {
-        padding: 10px 20px;
+        margin: {
+            bottom: 1rem;
+        }
+        padding: 0 20px {
+            bttom: 10px;
+        };
         display: flex;
         justify-content: space-around;
         .card {
             position: relative;
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             flex-direction: column;
             align-items: center;
-            width: 150px;
-            height: 220px;
+            width: 250px;
+            height: 320px;
             padding: 2px;
             &:nth-child(1) {
-                border: 3px solid $mine-orange {
+                border: 5px double $mine-orange {
                     radius: 1rem;
                 }
                 .card-image {
@@ -118,7 +128,7 @@ main {
                 }
             }
             &:nth-child(2) {
-                border: 3px solid $mine-purple {
+                border: 5px double $mine-purple {
                     radius: 1rem;
                 }
                 .card-image {
@@ -126,7 +136,7 @@ main {
                 }
             }
             &:nth-child(3) {
-                border: 3px solid $mine-pink {
+                border: 5px double $mine-pink {
                     radius: 1rem;
                 }
                 .card-image {
@@ -140,12 +150,12 @@ main {
                 display: flex;
                 justify-content: center;
                 width: 100%;
-                height: 150px;
+                height: 200px;
                 img {
                     position: absolute;
-                    top: -15px;
-                    width: 100px;
-                    height: 150px;
+                    top: -35px;
+                    width: 160px;
+                    height: 200px;
                     object-fit: cover;
                 }
             }
@@ -158,19 +168,23 @@ main {
                 width: 60%;
                 h1 {
                     font: {
-                        size: 0.8rem;
+                        size: 1.1rem;
                     }
                 }
-                button {
+                .btn-detail {
                     width: 100%;
                     background-color: black;
                     border: none {
-                        radius: 0.4rem;
+                        radius: 0.8rem;
                     }
                     color: white;
                     padding: 5px 10px;
                     font: {
-                        size: 0.7rem;
+                        size: 1rem;
+                    }
+                    text: {
+                        align: center;
+                        decoration: none;
                     }
                 }
             }
