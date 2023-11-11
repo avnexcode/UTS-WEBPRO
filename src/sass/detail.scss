@@ -17,6 +17,11 @@ $font-caveat: "Caveat", cursive;
 $font-poppins: "Poppins", sans-serif;
 $font-onest: "Onest", sans-serif;
 
+// Color Variable
+$mine-orange: #f9743c;
+$mine-purple: #733ce0;
+$mine-pink: #df1b59;
+
 
 header {
     font: {
@@ -44,6 +49,9 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin: {
+        bottom: 1rem;
+    }
     table {
         background-color: white;
         width: 60%;
@@ -79,6 +87,19 @@ main {
                     padding: 3px;
                 }
             }
+        }
+    }
+}
+
+#back-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    a {
+        color: $mine-purple;
+        font: {
+            size: 2rem;
         }
     }
 }
