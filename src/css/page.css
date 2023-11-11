@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Onest:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  background-color: whitesmoke;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  font-family: "Poppins", sans-serif;
+}
+header .hero-left {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+header .hero-left .hero-title h1 {
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+header .hero-left .hero-title p {
+  text-align: justify;
+  font-size: 1rem;
+}
+header .hero-right {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+header .hero-right .hero-image {
+  display: flex;
+}
+header .hero-right .hero-image:hover img {
+  margin-left: 0;
+  transition: all 1s ease;
+}
+header .hero-right .hero-image img {
+  cursor: pointer;
+  margin-left: -125px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 3px solid white;
+  border-radius: 50%;
+  transition: all 1s ease;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+main nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main nav h1 {
+  font-size: 2.5rem;
+}
+main .card-list {
+  margin-bottom: 1rem;
+  padding: 0 20px;
+  padding-bttom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+main .card-list .card {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 320px;
+  padding: 2px;
+}
+main .card-list .card:nth-child(1) {
+  border: 5px double #f9743c;
+  border-radius: 1rem;
+}
+main .card-list .card:nth-child(1) .card-image {
+  background-color: #f9743c;
+}
+main .card-list .card:nth-child(2) {
+  border: 5px double #733ce0;
+  border-radius: 1rem;
+}
+main .card-list .card:nth-child(2) .card-image {
+  background-color: #733ce0;
+}
+main .card-list .card:nth-child(3) {
+  border: 5px double #df1b59;
+  border-radius: 1rem;
+}
+main .card-list .card:nth-child(3) .card-image {
+  background-color: #df1b59;
+}
+main .card-list .card-image {
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+}
+main .card-list .card-image img {
+  position: absolute;
+  top: -35px;
+  width: 160px;
+  height: 200px;
+  object-fit: cover;
+}
+main .card-list .card-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 0;
+  width: 60%;
+}
+main .card-list .card-detail h1 {
+  font-size: 1.1rem;
+}
+main .card-list .card-detail .btn-detail {
+  width: 100%;
+  background-color: black;
+  border: none;
+  border-radius: 0.8rem;
+  color: white;
+  padding: 5px 10px;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=page.css.map */
