@@ -30,7 +30,7 @@ header .hero-left .hero-title h1 {
 }
 header .hero-left .hero-title p {
   text-align: justify;
-  font-size: 1rem;
+  font-size: 0.85rem;
 }
 header .hero-right {
   width: 60%;
@@ -75,7 +75,7 @@ main nav h1 {
 main .card-list {
   margin-bottom: 1rem;
   padding: 0 20px;
-  padding-bttom: 10px;
+  padding-bottom: 10px;
   display: flex;
   justify-content: space-around;
 }
