@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "sass ./src/sass/main.scss ./src/css/main.css --watch"
+    "comp-1": "sass ./src/sass/main.scss ./src/css/main.css --watch",
+    "comp-2": "sass ./src/sass/page.scss ./src/css/page.css --watch",
+    "comp-3": "sass ./src/sass/detail.scss ./src/css/detail.css --watch"
   },
   "keywords": [],
   "author": "",
