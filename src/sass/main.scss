@@ -43,30 +43,37 @@ header {
             h1 {
                 display: flex;
                 gap: 10%;
+                // justify-content: center;
                 span {
                     &:nth-child(1) {
-                        // position: absolute;
-                        left: 10%;
+                        font: {
+                            family: $font-caveat;
+                        }
                         color: red;
                     }
                     &:nth-child(2) {
-                        // position: absolute;
-                        right: 10%;
+                        font: {
+                            family: $font-caveat;
+                        }
                         color: white;
                     }
                 }
                 font: {
                     family: $font-poppins;
-                    size: 5rem;
+                    size: 7rem;
                 }
                 text: {
                     transform: uppercase;
                 }
             }
             a {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                justify-content: space-between;
                 background-color: white;
                 color: black;
-                padding: 10px 20px;
+                padding: 0 30px;
                 border: {
                     radius: 0.8rem;
                 }
@@ -120,6 +127,8 @@ main {
             overflow: hidden;
             border: {
                 radius: 1rem;
+            }
+            margin: {
             }
             &:hover {
                 .card-image {

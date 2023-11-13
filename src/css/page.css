@@ -116,7 +116,7 @@ main .card-list .card-image {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 150px;
+  height: 135px;
 }
 main .card-list .card-image img {
   position: absolute;

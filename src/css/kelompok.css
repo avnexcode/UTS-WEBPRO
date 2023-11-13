@@ -16,7 +16,7 @@ header {
   width: 100%;
   justify-content: center;
   align-items: center;
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
 
 main {
@@ -27,6 +27,7 @@ main {
   align-items: center;
 }
 main .card-list {
+  padding: 0 10px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

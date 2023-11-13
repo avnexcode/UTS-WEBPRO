@@ -39,21 +39,25 @@ header .hero .hero-title h1 {
   display: flex;
   gap: 10%;
   font-family: "Poppins", sans-serif;
-  font-size: 5rem;
+  font-size: 7rem;
   text-transform: uppercase;
 }
 header .hero .hero-title h1 span:nth-child(1) {
-  left: 10%;
+  font-family: "Caveat", cursive;
   color: red;
 }
 header .hero .hero-title h1 span:nth-child(2) {
-  right: 10%;
+  font-family: "Caveat", cursive;
   color: white;
 }
 header .hero .hero-title a {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
   background-color: white;
   color: black;
-  padding: 10px 20px;
+  padding: 0 30px;
   border-radius: 0.8rem;
   font-size: 2rem;
   font-weight: 500;
