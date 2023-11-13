@@ -29,9 +29,39 @@ header h1 {
 main {
   font-family: "Onest", sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 20px;
   width: 100%;
   margin-bottom: 1rem;
+}
+main form {
+  width: 50%;
+}
+main form .input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+main form .input input {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+}
+main form .input input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+main form .input input:focus {
+  outline: none;
+}
+main form .input button {
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem;
 }
 main table {
   background-color: white;
